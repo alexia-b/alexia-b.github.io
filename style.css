@@ -1,0 +1,147 @@
+body {
+/*  background: url(images/tree_border.jpg);
+  background: url(images/tree_green.jpg);
+  background: url(images/tree_border.jpg);
+  background-repeat: repeat-y;
+  background-position: top left; */
+  background-color: rgb(150,170,120);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: sans-serif;
+  text-decoration: none;
+
+}
+h1 {
+  color: black;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: left;
+  font-size: 36px;
+}
+img.sig {
+  margin: 0px 20px 20px 0px;
+}	
+
+h2 {
+   color: #cccc99;
+   clear: both;
+   letter-spacing: 2px;
+   padding: 3px 0px;
+   border-bottom: 1px dotted #5A1E00;
+   font-size: 16pt;
+   line-height: 6px;
+   font-variant: small-caps;
+   text-decoration: none;
+   margin: 20px 0px 20px 0px;
+}
+h3 {
+   color: #5A1E00;
+  font-size: 12pt;
+  text-decoration: none;
+  text-align: justify;
+  margin-bottom: 0px;
+}
+h4 {
+   margin-bottom: 0px;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-indent: 10px;
+}
+p {
+  line-height: 18px;
+  margin: 3px 0px 0px 15px;
+  color: rgb(200,200,200);
+}
+ol {
+  text-decoration: none;
+  line-height: 20px;
+}
+ol li {
+   margin-bottom: 14px;
+}
+ul li {
+  line-height: 22px;
+}
+img.pic {
+  float: right;
+  border: 2px solid black;
+  margin: 0px 20px 5px 0px;
+  background: url(images/alexia_02.jpg);
+  height: 165;
+}
+div.contact {
+  padding: 10px;
+  margin-top: 0px;
+  clear: both;
+  font-size: 12px;
+  font-style: italic;
+  text-align: left;
+  background-color: rgb(102,51,0);
+  border-right: 2px solid #5A1E00;
+  border-left: 2px solid #5A1E00;
+  border-bottom: 2px solid #5A1E00;
+}
+div.contact p {
+  text-align: right;
+  line-height: 12px;
+}
+.tabnav {
+	color: black;
+	text-decoration: none;
+	margin-bottom: 0px;
+	padding: 2px;
+
+}
+
+.tab, .tabon {
+	background-color: white;
+	border: 1px solid #5A1E00;
+	padding: 2px 5px;
+}
+.tabon {
+       background-color: #5A1E00;
+       color: white;
+       border-top: 2px solid #5A1E00;
+       border-right: 5px solid #5A1E00;
+       border-left: 5px solid #5A1E00;
+}
+.tabnav a:hover {
+	text-decoration: none;
+}
+div.contact a {
+  color: white;
+}
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted #5A1E00;
+  color: #5A1E00;
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid rgb(218,165,32);
+  color: rgb(218,165,32);
+}
+a:hover .tab {
+	background-color: rgb(218,165,32);
+	color: black;
+}
+div.body {
+	background: url(images/border_rug.jpg) repeat-x top left;
+	font-size: 14px;
+	color: rgb(200,200,200);
+	border-left: 2px solid #5A1E00;
+	border-right: 2px solid #5A1E00;
+	border-top: 5px solid #5A1E00; /* rgb(102,51,0); */ 
+	padding: 60px 20px 20px 20px;
+	background-color: rgb(153,102,51);
+}
+.note {
+      text-align: right;
+}
+p.synopsis {
+	   font-style: italic;
+	   font-family: serif;
+}
